@@ -1,0 +1,52 @@
+{
+	"info": {
+		"_postman_id": "2a014b7b-45bc-400f-b593-822cc83a950a",
+		"name": "cheflooks",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16213366"
+	},
+	"item": [
+		{
+			"name": "Products",
+			"item": [
+				{
+					"name": "GET /api/products",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/api/products",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"api",
+								"products"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET /api/products/:id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/api/products/62471ea3aee02f776619d6a8",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"api",
+								"products",
+								"62471ea3aee02f776619d6a8"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
